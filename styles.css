@@ -1,0 +1,69 @@
+body{
+    background-image: url("./fire.jpg");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home page */
+.home__heading{
+    font-size: 40px;
+    color: orange;
+}
+.home{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    row-gap: 20px;
+    min-height: 100vh;
+    width: 100%;
+}
+/* card */
+.home__card{
+    color: orange;
+    background-color: rgba(0,0,0,0.8) !important;
+    padding: 20px;
+}
+/* image */
+.home__image{
+border: 1px solid orange;
+border-radius: 50%;
+}
+
+.home__card-body{
+    color: orange !important;
+    text-align: center;
+}
+.home__list{
+    list-style: none;
+    text-align: center;
+}
+/* row  */
+.content__col{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+/* load button */
+.load{
+    cursor: pointer;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+
+/* footer */
+.footer{
+    margin-top: 10px;
+    background-color: orange;
+    text-align: center;
+    font-weight: 600;
+}
